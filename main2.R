@@ -6,10 +6,10 @@ library(tm)
 library(quanteda)
 
 
-cKey="g9RV3uYmEYXZzTbh0ap3NQcEA"
-cSecret="cOWVAwzyGNGJ53L8KktSopBpgtjKl2RrYQ7TJLI05oMwgYqPEr"
-accessToken="3042567924-Su0rCZx03l6mHzKodLl35wt0dWyhxFNuhrMCmom"
-accessSecret="0cP4vh3GAD5KGKOGHPXU3ccXT3iLVh5eXd91tiu9mxhcB"
+cKey=""
+cSecret=""
+accessToken=""
+accessSecret=""
 setup_twitter_oauth(cKey, cSecret, accessToken, accessSecret)
 
 userObj=getUser("@peta")
